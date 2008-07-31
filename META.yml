@@ -1,0 +1,23 @@
+---
+name: POE-Component-WWW-Alexa-TrafficRank
+version: 0.001
+author:
+  - 'Zoffix Znet <zoffix@cpan.org>'
+abstract: non-blocking wrapper around WWW::Alexa::TrafficRank
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  POE: 0.9999
+  POE::Component::NonBlockingWrapper::Base: 0.002
+  WWW::Alexa::TrafficRank: 1
+build_requires:
+  Test::More: 0
+provides:
+  POE::Component::WWW::Alexa::TrafficRank:
+    file: lib/POE/Component/WWW/Alexa/TrafficRank.pm
+    version: 0.001
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
